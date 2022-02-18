@@ -35,12 +35,12 @@ android_library(
 
 android_build_config(
     name = "build_config",
-    package = "com.movieapp",
+    package = "movie.app",
 )
 
 android_resource(
     name = "res",
-    package = "com.movieapp",
+    package = "movie.app",
     res = "src/main/res",
 )
 
